@@ -23,8 +23,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
 
-Route::get('/tj', function () {
-    return 'Tijjani Yusuf';
+Route::get('/installation', function () {
+    echo exec('php /var/www/laravel-app/artisan migrate:install');
 });
 
 Route::middleware('guest')->group(function () {
