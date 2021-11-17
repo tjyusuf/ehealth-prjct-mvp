@@ -23,7 +23,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
 
-
+Route::get('/rds',function(){
+    echo $_SERVER['RDS_USERNAME'];
+});
 
 Route::middleware('guest')->group(function () {
     Route::get('login', Login::class)
