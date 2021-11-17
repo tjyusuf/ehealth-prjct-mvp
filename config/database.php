@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Str;
 
+define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
+define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
+define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
+define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+
 return [
 
     /*
@@ -45,12 +50,13 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
+            'port' => env('DB_PORT', '3306'),
             'url' => env('DATABASE_URL'),
-            'host' => env('RDS_HOST', 'localhost'),
+            'host' => RDS_HOSTNAME,
             'port' => env('RDS_PORT', '3306'),
-            'database' => env('RDS_DATABASE', 'database'),
-            'username' => env('RDS_USERNAME', 'username'),
-            'password' => env('RDS_PASSWORD', ''),
+            'database' => RDS_DB_NAME,
+            'username' => RDS_USERNAME,
+            'password' => RDS_PASSWORD,            
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
