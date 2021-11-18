@@ -38,7 +38,7 @@
 
         <!-- Mobile navigation menu -->
         <div class="md:hidden fixed bottom-1 w-full p-5 px-6 flex items-center justify-between bg-white shadow-lg text-gray-500 rounded-md cursor-pointer">
-            <div class="flex flex-col items-center {{ route()->is('dashboard') }} transition ease-in duration-200 hover:text-blue-400 ">
+            <div class="flex flex-col items-center {{ request()->routeIs('dashboard') }} transition ease-in duration-200 hover:text-blue-400 ">
                 <i class="fa fa-home"></i>
             </div>
             <div class="flex flex-col items-center transition ease-in duration-200 hover:text-blue-400 ">
