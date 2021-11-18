@@ -23,9 +23,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
 
-Route::get('/rds',function(){
-    echo $_SERVER['RDS_USERNAME'];
-});
+// Route::get('/',function(){
+//     echo $_SERVER['RDS_USERNAME'];
+// });
 
 Route::middleware('guest')->group(function () {
     Route::get('login', Login::class)
@@ -57,4 +57,10 @@ Route::middleware('auth')->group(function () {
 
     Route::post('logout', LogoutController::class)
         ->name('logout');
+});
+
+Route::middleware('auth')->group(function(){
+    Route::get('/dashboard',function(){
+
+    })->name('dashboard');
 });
