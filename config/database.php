@@ -2,10 +2,17 @@
 
 use Illuminate\Support\Str;
 
-define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
-define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
-define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
-define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+// define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
+// define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
+// define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
+// define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+
+
+define('RDS_HOSTNAME', 'ec2-3-229-127-203.compute-1.amazonaws.com');
+define('RDS_USERNAME', 'htnibitycdlnih');
+define('RDS_PASSWORD', '4a4a9b38e862a3dc99cf7ac725db9916260544e1b994bf756f807153ef447a0c');
+define('RDS_DB_NAME', 'dd6hg8i6us9e7o');
+define('RDS_DB_PORT', '5432');
 
 return [
 
@@ -20,7 +27,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -53,7 +60,6 @@ return [
             'port' => env('DB_PORT', '3306'),
             'url' => env('DATABASE_URL'),
             'host' => RDS_HOSTNAME,
-            'port' => env('RDS_PORT', '3306'),
             'database' => RDS_DB_NAME,
             'username' => RDS_USERNAME,
             'password' => RDS_PASSWORD,            
@@ -72,11 +78,11 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => RDS_HOSTNAME,
+            'port' => RDS_PORT,
+            'database' => RDS_DB_NAME,
+            'username' => RDS_USERNAME,
+            'password' => RDS_PASSWORD,     
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
