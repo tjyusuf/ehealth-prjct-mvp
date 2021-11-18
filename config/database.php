@@ -8,6 +8,8 @@ use Illuminate\Support\Str;
 // define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
 
 
+define('DB_CONNECTION', 'pgsql');
+
 define('RDS_HOSTNAME', 'ec2-3-229-127-203.compute-1.amazonaws.com');
 define('RDS_USERNAME', 'htnibitycdlnih');
 define('RDS_PASSWORD', '4a4a9b38e862a3dc99cf7ac725db9916260544e1b994bf756f807153ef447a0c');
@@ -27,7 +29,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => DB_CONNECTION,
 
     /*
     |--------------------------------------------------------------------------
