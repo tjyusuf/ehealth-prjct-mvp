@@ -4,9 +4,9 @@
     <div class="bg-gray-50 min-h-screen">
 
         <!-- This example requires Tailwind CSS v2.0+ -->
-        <div class="w-full bg-white ">
+        <div class="w-full bg-white border-b-2 border-blue-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6">
-                <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+                <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                 <div class="flex justify-start lg:w-0 lg:flex-1">
                     <a href="#">
                     <img class=" flex-inline h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-blue-600.svg" alt=""/>
