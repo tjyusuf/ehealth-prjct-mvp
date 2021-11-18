@@ -1,4 +1,6 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('content')
     <div>
 
         <p class="my-2 text-left text-md font-bold text-blue-800">Upcoming Appointments</p>
@@ -24,4 +26,4 @@
         </div>    
 
     </div>
-</x-app-layout>
+@endsection
