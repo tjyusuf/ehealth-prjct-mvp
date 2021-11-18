@@ -12,7 +12,7 @@ define('RDS_HOSTNAME', 'ec2-3-229-127-203.compute-1.amazonaws.com');
 define('RDS_USERNAME', 'htnibitycdlnih');
 define('RDS_PASSWORD', '4a4a9b38e862a3dc99cf7ac725db9916260544e1b994bf756f807153ef447a0c');
 define('RDS_DB_NAME', 'dd6hg8i6us9e7o');
-define('RDS_DB_PORT', '5432');
+define('RDS_PORT', '5432');
 
 return [
 
@@ -57,7 +57,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'port' => env('DB_PORT', '3306'),
+            'port' => RDS_PORT,
             'url' => env('DATABASE_URL'),
             'host' => RDS_HOSTNAME,
             'database' => RDS_DB_NAME,
