@@ -35,6 +35,3 @@ jobs:
       - name: Deploy new ElasticBeanstalk Application Version
         run: aws elasticbeanstalk update-environment --environment-name Mvpehealthprjct-env --version-label "ver-${{ github.sha }}"
 
-      - name: Run database migrations
-        run:  php artisan migrate --force
-   
