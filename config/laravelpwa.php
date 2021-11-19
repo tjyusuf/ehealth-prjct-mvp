@@ -1,47 +1,45 @@
 <?php
 
 return [
-    'name' => 'LaravelPWA',
+    'name' => 'EhealthApp',
     'manifest' => [
-        'name' => env('APP_NAME', 'My PWA App'),
-        'short_name' => 'PWA',
+        'name' => env('APP_NAME', 'eHealth Project'),
+        'short_name' => 'eHealth',
         'start_url' => '/',
-        'background_color' => '#ffffff',
-        'theme_color' => '#000000',
+        'background_color' => '#eHealth',
+        'theme_color' => '#A5F3FC',
         'display' => 'standalone',
         'orientation'=> 'any',
-        'status_bar'=> 'black',
+        'status_bar'=> 'blue',
         'icons' => [
             '72x72' => [
-                'path' => '/images/icons/icon-72x72.png',
+                'path' => '/images/icons/icon-72.png',
                 'purpose' => 'any'
             ],
-            '96x96' => [
-                'path' => '/images/icons/icon-96x96.png',
-                'purpose' => 'any'
-            ],
+            
             '128x128' => [
-                'path' => '/images/icons/icon-128x128.png',
+                'path' => '/images/icons/icon-128.png',
                 'purpose' => 'any'
             ],
             '144x144' => [
-                'path' => '/images/icons/icon-144x144.png',
+                'path' => '/images/icons/icon-144.png',
                 'purpose' => 'any'
             ],
             '152x152' => [
-                'path' => '/images/icons/icon-152x152.png',
+                'path' => '/images/icons/icon-152.png',
                 'purpose' => 'any'
             ],
+
             '192x192' => [
-                'path' => '/images/icons/icon-192x192.png',
+                'path' => '/images/icons/icon-192.png',
                 'purpose' => 'any'
             ],
             '384x384' => [
-                'path' => '/images/icons/icon-384x384.png',
+                'path' => '/images/icons/icon-256.png',
                 'purpose' => 'any'
             ],
             '512x512' => [
-                'path' => '/images/icons/icon-512x512.png',
+                'path' => '/images/icons/icon-512.png',
                 'purpose' => 'any'
             ],
         ],
@@ -59,19 +57,15 @@ return [
         ],
         'shortcuts' => [
             [
-                'name' => 'Shortcut Link 1',
-                'description' => 'Shortcut Link 1 Description',
-                'url' => '/shortcutlink1',
+                'name' => 'Home',
+                'description' => 'Go to homepage',
+                'url' => '/',
                 'icons' => [
-                    "src" => "/images/icons/icon-72x72.png",
+                    "src" => "/images/icons/icon-72.png",
                     "purpose" => "any"
                 ]
             ],
-            [
-                'name' => 'Shortcut Link 2',
-                'description' => 'Shortcut Link 2 Description',
-                'url' => '/shortcutlink2'
-            ]
+            
         ],
         'custom' => []
     ]
