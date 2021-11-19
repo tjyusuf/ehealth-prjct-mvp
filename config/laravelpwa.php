@@ -6,7 +6,7 @@ return [
         'name' => env('APP_NAME', 'eHealth Project'),
         'short_name' => 'eHealth',
         'start_url' => '/',
-        'background_color' => '#eHealth',
+        'background_color' => '#0EA5E9',
         'theme_color' => '#A5F3FC',
         'display' => 'standalone',
         'orientation'=> 'any',
