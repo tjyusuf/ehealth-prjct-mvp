@@ -23,6 +23,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
 
+Route::get('/offline', function () { 
+    return view('vendor/laravelpwa/offline'); 
+});
+
 // Route::get('/',function(){
 //     echo $_SERVER['RDS_USERNAME'];
 // });

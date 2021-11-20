@@ -32,7 +32,7 @@
 
 <script type="text/javascript">
 
-    console.log('log from service worketr');
+    console.log('log from service worker');
     // Initialize the service worker
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/serviceworker.js', {
@@ -44,5 +44,7 @@
             // registration failed :(
             console.log('Laravel PWA: ServiceWorker registration failed: ', err);
         });
+    }else {
+        console.log('service worker not in navigation');
     }
 </script>
