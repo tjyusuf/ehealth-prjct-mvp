@@ -13,33 +13,33 @@ return [
         'status_bar'=> 'blue',
         'icons' => [
             '72x72' => [
-                'path' => '/images/icons/icon-72.png',
+                'path' => '/images/icons/72.png',
                 'purpose' => 'any'
             ],
             
             '128x128' => [
-                'path' => '/images/icons/icon-128.png',
+                'path' => '/images/icons/128.png',
                 'purpose' => 'any'
             ],
             '144x144' => [
-                'path' => '/images/icons/icon-144.png',
+                'path' => '/images/icons/144.png',
                 'purpose' => 'any'
             ],
             '152x152' => [
-                'path' => '/images/icons/icon-152.png',
+                'path' => '/images/icons/152.png',
                 'purpose' => 'any'
             ],
 
             '192x192' => [
-                'path' => '/images/icons/icon-192.png',
+                'path' => '/images/icons/192.png',
                 'purpose' => 'any'
             ],
             '384x384' => [
-                'path' => '/images/icons/icon-256.png',
+                'path' => '/images/icons/256.png',
                 'purpose' => 'any'
             ],
             '512x512' => [
-                'path' => '/images/icons/icon-512.png',
+                'path' => '/images/icons/512.png',
                 'purpose' => 'any'
             ],
         ],
@@ -61,7 +61,7 @@ return [
                 'description' => 'Go to homepage',
                 'url' => '/',
                 'icons' => [
-                    "src" => "/images/icons/icon-72.png",
+                    "src" => "/images/icons/72.png",
                     "purpose" => "any"
                 ]
             ],

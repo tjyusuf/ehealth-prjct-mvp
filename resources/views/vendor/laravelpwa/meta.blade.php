@@ -47,7 +47,7 @@
             });
         });
     }else {
-        console.log('service worker not in navigation');
+        console.log('service worker not in navigator');
     }
 
 
