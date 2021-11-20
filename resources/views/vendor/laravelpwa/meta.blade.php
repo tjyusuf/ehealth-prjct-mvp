@@ -35,16 +35,20 @@
     console.log('log from service worker');
     // Initialize the service worker
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/serviceworker.js', {
-            scope: '/'
-        }).then(function (registration) {
-            // Registration was successful
-            console.log('Laravel PWA: ServiceWorker registration successful with scope: ', registration.scope);
-        }, function (err) {
-            // registration failed :(
-            console.log('Laravel PWA: ServiceWorker registration failed: ', err);
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/serviceworker.js',{
+                scope: '/'
+            }).then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
         });
     }else {
         console.log('service worker not in navigation');
     }
+
+
 </script>
