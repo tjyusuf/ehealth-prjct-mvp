@@ -1,1 +1,1 @@
-sudo certbot -n -d prjct-ehealth-mvp.us-east-2.elasticbeanstalk.com --nginx --agree-tos --email tijjvni@gmail.com
+sudo certbot -n -d 'prjct-ehealth-mvp.us-east-2.elasticbeanstalk.com' --nginx --agree-tos --email 'tijjvni@gmail.com'
