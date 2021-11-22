@@ -19,5 +19,10 @@
             <p class="text-primary-dark mb-2 text-md font-bold">Upcoming appointment</p>
             <x-home-appointment-card/>
         </div>
+
+        <div>
+            <p class="text-primary-dark mb-2 text-md font-bold">Suggested specialists</p>
+            <x-specialist-card/>
+        </div>
     </div>
 @endsection
