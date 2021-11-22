@@ -2,7 +2,7 @@
     <!-- This example requires Tailwind CSS v2.0+ -->
     <div class="w-full bg-white border-b-2 border-gray-light">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+            <div class="flex justify-between items-center py-2 md:justify-start md:space-x-10">
                 <div class="flex justify-start lg:w-0 lg:flex-1">
                     <a href="#">
                         <x-logo class=" flex-inline h-8 w-auto sm:h-10"/>
@@ -20,7 +20,7 @@
                     </div>
                 </nav>
                 <div class="flex items-center justify-end md:flex-1 lg:w-0">
-                    <img alt="" class="w-12 h-12 rounded-full ring-2 ring-offset-4 bg-coolGray-500 ring-violet-600 ring-offset-coolGray-100" src="https://source.unsplash.com/41x41/?portrait">
+                    <img alt="" class="w-8 h-8 rounded-full ring-2 ring-offset-1 ring-primary ring-offset-primary-light" src="https://source.unsplash.com/41x41/?portrait">
                 </div>                    
             </div>
         </div>
