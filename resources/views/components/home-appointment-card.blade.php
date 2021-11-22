@@ -1,5 +1,5 @@
 <div>
-    <div class="w-full rounded-lg text-white p-5 md:px-10 bg-gradient-to-r from-primary via-primary-light to-primary">
+    <div class="w-full rounded-lg text-white p-5 md:px-10 bg-gradient-to-r from-primary via-blue-300 to-primary">
         <div class="flex flex-row">
           <div class="flex-initial">
             <img alt="" class="w-12 h-12 rounded-full ring-2 ring-offset-2 ring-primary ring-offset-primary-light" src="https://source.unsplash.com/41x41/?portrait"/>

@@ -1,13 +1,6 @@
 <div class="space-y-2">
     
-    <div class="relative flex w-full flex-wrap items-stretch">
-        <span class="z-10 h-full leading-snug font-normal absolute text-center text-gray absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
-          <i class="fas fa-search"></i>
-        </span>
-        <input type="text" placeholder="Search"
-          class="px-3 py-3 placeholder-gray-light text-gray-dark relative bg-white bg-white rounded text-sm border border-gray outline-none focus:outline-none focus:ring w-full pl-10"/>
-    </div>
-
+    <x-explore-search/>
     <div class="space-y-">
         <div class="flex items-center justify-between md:justify-center text-gray cursor-pointer space-x-2">
             <div class="flex flex-col text-center text-gray space-y-2">
