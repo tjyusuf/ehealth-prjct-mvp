@@ -18,7 +18,7 @@
         </div>
         <div class="flex border-t border-gray-light divide-x divide-gray">
           <a class="flex-1 py-3 px-5 font-light cursor-pointer" >
-              <span class="bg-primary text-primary-light text-xs px-2 py-1 rounded">hospital</span>
+              <span class="bg-primary-light text-primary text-xs px-2 py-1 rounded">hospital</span>
               <span class="float-right">
               <i class="fa fa-chevron-right"></i>
             </span>
