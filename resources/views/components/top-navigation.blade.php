@@ -10,7 +10,7 @@
                 </div>
                 <nav class="hidden md:flex space-x-10">
                     <div class="relative">
-                    <a href="#" class="no-underline px-2 my-2 font-medium text-gray hover:text-primary">
+                    <a href="/explore" class="no-underline px-2 my-2 font-medium text-gray hover:text-primary">
                         <i class="fa fa-search"></i> Explore
                     </a>          
                     <a href="#" class="no-underline px-2 my-2 font-medium text-gray hover:text-primary">
