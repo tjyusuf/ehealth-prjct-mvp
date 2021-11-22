@@ -1,5 +1,5 @@
 <div>
-    <div class="flex bg-white shadow-md  rounded-2xl p-2 text-gray">
+    <div class="flex bg-white shadow-md  rounded-md p-2 text-gray">
         <img alt="" class="w-12 h-12 rounded-full mr-3" src="https://source.unsplash.com/41x41/?portrait"/>
         <div class="flex-col flex-grow justify-center px-2 py-1">
             <div class="flex justify-between items-center ">

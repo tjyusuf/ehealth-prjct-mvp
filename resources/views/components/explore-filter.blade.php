@@ -13,7 +13,7 @@
             <i class="fas fa-times ml-3"></i>
           </button>
         </span>
-        <span class="flex-inline px-4 py-2 text-base rounded-full bg-white text-primary">
+        <span class="flex-inline ---px-4 py-2 text-base rounded-full bg-white text-primary">
           <i class="fa fa-hospital mr-3"></i>
           Facilities
           <button class="bg-transparent hover">

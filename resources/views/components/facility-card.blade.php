@@ -1,7 +1,7 @@
 <div>
-    <div class="border border-gray-light rounded-md w-full mb-2 bg-white shadow">
+    <div class="text-gray border border-gray-light rounded-md w-full mb-2 bg-white shadow">
         <div class="p-2" >
-          <h5 class="text-gray mb-2">
+          <h5 class="mb-2">
             <span class="font-semibold ">Barau Dikko</span>
           </h5>
           <h5 class="text-sm text-primary">
