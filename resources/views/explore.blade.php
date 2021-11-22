@@ -4,5 +4,10 @@
     <div class="max-w-7xl mx-auto p-5 md:p-10 space-y-2">
        <x-explore-search/>
        <x-explore-filter/>
+       <x-specialist-card/>
+       <x-specialist-card/>
+       <x-facility-card/>
+       <x-specialist-card/>
+       <x-facility-card/>
     </div>
 @endsection
