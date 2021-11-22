@@ -7,9 +7,9 @@
         <div class="flex flex-col items-center {{ request()->routeIs('explore') ? 'text-primary' : '' }} transition ease-in duration-200 hover:text-primary ">
             <i class="fa fa-search"></i>
         </div>
-        <div class="flex flex-col items-center  hover:text-primary">
+        <div class="flex flex-col items-center ">
             <div
-            class="absolute bottom-4 shadow-md text-center flex items-center justify-center rounded-full border border-primary-light text-2xl bg-primary w-12 h-12 p-2 text-white transition ease-in duration-200 ">
+            class="absolute bottom-4 shadow-md text-center flex items-center justify-center rounded-full border border-gray-light text-2xl bg-primary w-12 h-12 p-2 text-white hover:font-semibold transition ease-in duration-200 ">
             +
             <span class="animate-pingg absolute inline-flex h-full w-full rounded-full border-4 opacity-50"></span>
             </div>

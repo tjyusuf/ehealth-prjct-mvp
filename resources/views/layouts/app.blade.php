@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('body')
-    <div class="bg-blue-50 min-h-screen">
+    <div class="bg-gray-light min-h-screen">
 
         <x-top-navigation/>     
         @yield('content')
