@@ -4,7 +4,7 @@
     <div>
         <!-- header -->
         <header class=" ">
-        <div class="max-w-7xl mx-auto text-gray-500 p-5 md:px-10 flex flex-row">
+        <div class="max-w-7xl mx-auto text-gray p-5 md:px-10 flex flex-row">
             <h1 class="flex-grow">
                 <p>Hello</p>
                 <p class="text-xl font-bold ">Tijjani</p>
