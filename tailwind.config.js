@@ -24,6 +24,16 @@ module.exports = {
                   DEFAULT: '#F59E0B',
                   dark: '#B45309',
                 },
+                success: {
+                  light: '#D1FAE5',
+                  DEFAULT: '#10B981',
+                  dark: '#B91C1C',
+                },
+                danger: {
+                  light: '#FECACA',
+                  DEFAULT: '#EF4444',
+                  dark: '#B45309',
+                },
             },            
         },
     },
