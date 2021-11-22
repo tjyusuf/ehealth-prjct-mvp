@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div>
+    <div class="max-w-7xl mx-auto p-5 md:p-10">
         <!-- header -->
-        <header class=" ">
-        <div class="max-w-7xl mx-auto text-gray p-5 md:px-10 flex flex-row">
+        <header class=" text-gray  flex flex-row">
             <h1 class="flex-grow">
                 <p>Hello</p>
                 <p class="text-xl font-bold ">Tijjani</p>
@@ -12,7 +11,8 @@
             <div class="flex-initial">
                 <i class="fa fa-bell text-gray text-2xl"></i>
             </div> 
-        </div>       
-        </header>    
+        </header>  
+        
+        <x-home-explore/>
     </div>
 @endsection
