@@ -20,7 +20,7 @@
                     </div>
                 </nav>
                 <div class="flex items-center justify-end md:flex-1 lg:w-0">
-                    <i class="fa fa-bell text-primary text-2xl"></i>
+                    <img alt="" class="w-12 h-12 rounded-full ring-2 ring-offset-4 bg-coolGray-500 ring-violet-600 ring-offset-coolGray-100" src="https://source.unsplash.com/41x41/?portrait">
                 </div>                    
             </div>
         </div>
