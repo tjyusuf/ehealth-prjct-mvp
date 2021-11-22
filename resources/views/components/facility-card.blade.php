@@ -1,13 +1,8 @@
 <div>
-
-    <div class="px-5 py-2">
-      <div class="border border-gray-light rounded-md w-full mb-2 bg-white shadow">
+    <div class="border border-gray-light rounded-md w-full mb-2 bg-white shadow">
         <div class="p-5 pb-2" >
           <h5 class="text-gray mb-2">
             <span class="font-semibold ">Barau Dikko</span>
-            <span class="float-right">
-              <span class="bg-primary text-primary-light text-xs px-2 py-1 rounded">hospital</span>
-            </span>					
           </h5>
           <h5 class="text-sm text-primary">
             <span>
@@ -21,13 +16,13 @@
             <p class="clear-both"></p>
           </h5>
         </div>
-        <div class="flex border-t border-gray-light divide-x divide-gray text-primary">
-          <a class="flex-1  py-3 px-5 font-light bg-gray-light cursor-pointer" >
-            View Profile
-            <span class="float-right">
+        <div class="flex border-t border-gray-light divide-x divide-gray">
+          <a class="flex-1 py-3 px-5 font-light cursor-pointer" >
+              <span class="bg-primary text-primary-light text-xs px-2 py-1 rounded">hospital</span>
+              <span class="float-right">
               <i class="fa fa-chevron-right"></i>
             </span>
           </a>
-        </div>								
-      </div>
+        </div>
+    </div>
 </div>
