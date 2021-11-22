@@ -20,7 +20,7 @@
                     </div>
                 </nav>
                 <div class="flex items-center justify-end md:flex-1 lg:w-0">
-                    <img alt="" class="w-8 h-8 rounded-full ring-2 ring-offset-4 ring-primary ring-offset-primary-light" src="https://source.unsplash.com/41x41/?portrait">
+                    <img alt="" class="w-8 h-8 rounded-full ring-2 ring-offset-1 ring-primary ring-offset-primary-light" src="https://source.unsplash.com/41x41/?portrait">
                 </div>                    
             </div>
         </div>

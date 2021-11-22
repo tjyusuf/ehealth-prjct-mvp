@@ -9,7 +9,7 @@
         </div>
         <div class="flex flex-col items-center ">
             <div
-            class="absolute bottom-4 shadow-md text-center flex items-center justify-center rounded-full border border-gray-light text-2xl bg-primary w-12 h-12 p-2 text-white hover:font-semibold transition ease-in duration-200 ">
+            class="absolute bottom-5 shadow-md text-center flex items-center justify-center rounded-full border border-gray-light text-2xl bg-primary w-14 h-14 p-2 text-white hover:font-semibold transition ease-in duration-200 ">
             +
             <span class="animate-pingg absolute inline-flex h-full w-full rounded-full border-4 opacity-50"></span>
             </div>

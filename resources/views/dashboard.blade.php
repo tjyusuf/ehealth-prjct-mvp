@@ -10,7 +10,7 @@
                 <p class="text-xl font-bold ">Tijjani</p>
             </h1>      
             <div class="flex-initial">
-                <i class="fa fa-bell text-primary text-2xl"></i>
+                <i class="fa fa-bell text-gray text-2xl"></i>
             </div> 
         </div>       
         </header>    
