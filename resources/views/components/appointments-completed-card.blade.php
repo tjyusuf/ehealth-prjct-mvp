@@ -2,8 +2,8 @@
     <div class="w-full rounded-md text-gray px-2 py-3 bg-gray-light shadow-md">
         <div class="flex flex-row">
           <h1 class="flex-grow">
-            <p class="text-xl font-bold ">Dr Sani Ahmad</p>
-            <p>Dentist</p>
+            <p class="text-xl font-bold ">Dr Ahmad Mahmud</p>
+            <p>Consultant</p>
           </h1>      
           <div class="flex-initial">
             <p class="flex-1 text-center">
