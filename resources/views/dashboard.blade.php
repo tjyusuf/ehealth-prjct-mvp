@@ -5,7 +5,7 @@
         <!-- header -->
         <header class=" text-gray  flex flex-row">
             <h1 class="flex-grow">
-                <p>Hello</p>
+                <p>Hello <span class="text-amber-light">&#9787;</span></p>
                 <p class="text-xl font-bold ">Tijjani</p>
             </h1>      
             <div class="flex-initial">
