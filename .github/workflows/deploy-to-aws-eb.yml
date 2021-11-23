@@ -19,18 +19,18 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
-          aws-region: "us-east-2"
+          aws-region: "af-south-1"
 
       - name: Upload package to S3 bucket
-        run: aws s3 cp deploy_package.zip s3://e-app-deploy-from-github/
+        run: aws s3 cp deploy_package.zip s3://ehealth-deploy/
 
       - name: Create new ElasticBeanstalk Application Version
         run: |
           aws elasticbeanstalk create-application-version \
-          --application-name MvpEhealthPrjct \
-          --source-bundle S3Bucket="e-app-deploy-from-github",S3Key="deploy_package.zip" \
+          --application-name eHealth \
+          --source-bundle S3Bucket="ehealth-deploy",S3Key="deploy_package.zip" \
           --version-label "ver-${{ github.sha }}" \
           --description "commit-sha-${{ github.sha }}"
 
       - name: Deploy new ElasticBeanstalk Application Version
-        run: aws elasticbeanstalk update-environment --environment-name Mvpehealthprjct-env --version-label "ver-${{ github.sha }}"
+        run: aws elasticbeanstalk update-environment --environment-name Ehealth-env --version-label "ver-${{ github.sha }}"
