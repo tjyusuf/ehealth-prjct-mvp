@@ -41,4 +41,27 @@
         </div>
     </div>
 
+ 
+    <div  x-data="{ tab: window.location.hash ? window.location.hash.substring(1) : 'today' }" id="tab_wrapper">
+      <!-- The tabs navigation -->
+      <nav>
+        <a :class="{ 'active': tab === 'today' }" @click.prevent="tab = 'today'" href="#">Today</a>
+        <a :class="{ 'active': tab === 'tomorrow' }" @click.prevent="tab = 'tomorrow'" href="#">Tomorrow</a>
+        <a :class="{ 'active': tab === 'next' }" @click.prevent="tab = 'next'" href="#">20th Nov</a>
+      </nav>
+
+      <!-- The tabs content -->
+      <div x-show="tab === 'today'">
+        Lorem ipsum today.
+      </div>
+      <div x-show="tab === 'tmorrow'">
+        Lorem ipsum tomorrow.
+      </div>
+      <div x-show="tab === 'next'">
+        Lorem ipsum next.
+      </div>
+
+    </div>
+
+
 </div>
