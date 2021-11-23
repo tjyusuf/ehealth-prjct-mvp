@@ -1,5 +1,5 @@
 <div>
-    <div class="w-full rounded-md text-gray px-2 py-3 bg-gray-light shadow-md">
+    <div class="w-full rounded-md text-gray px-2 py-3 bg-white shadow-md">
         <div class="flex flex-row">
           <h1 class="flex-grow">
             <p class="text-xl font-bold ">Dr Ahmad Mahmud</p>
