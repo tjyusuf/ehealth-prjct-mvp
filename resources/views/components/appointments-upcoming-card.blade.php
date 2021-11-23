@@ -1,5 +1,5 @@
 <div>
-    <div class="w-full rounded-md text-white px-3 py-5 bg-white shadow-md">
+    <div class="w-full rounded-md text-gray px-3 py-5 bg-white shadow-md">
         <div class="flex flex-row">
           <div class="flex-initial">
             <img alt="" class="w-12 h-12 rounded-full ring-2 ring-offset-2 ring-primary ring-offset-primary-light" src="https://source.unsplash.com/41x41/?portrait"/>

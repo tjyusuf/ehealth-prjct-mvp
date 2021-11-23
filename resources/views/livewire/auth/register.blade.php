@@ -12,7 +12,7 @@
 
         <p class="mt-2 text-sm text-center text-gray leading-5 max-w">
             Or
-            <a href="{{ route('register') }}" class="font-medium text-primary hover:text-primary-dark focus:outline-none focus:underline transition ease-in-out duration-150">
+            <a href="{{ route('login') }}" class="font-medium text-primary hover:text-primary-dark focus:outline-none focus:underline transition ease-in-out duration-150">
                 sign in to your account
             </a>
         </p>
