@@ -1,4 +1,4 @@
-name: deploy-repo-to-aws-eb
+name: deploy-to-aws-eb
 
 on:
   push:
@@ -22,16 +22,15 @@ jobs:
           aws-region: "af-south-1"
 
       - name: Upload package to S3 bucket
-        run: aws s3 cp ehealth_deployment_package.zip s3://ehealth-deploy/
+        run: aws s3 cp deployment_package.zip s3://ehealth-deploy/
 
       - name: Create new ElasticBeanstalk Application Version
         run: |
           aws elasticbeanstalk create-application-version \
           --application-name eHealth \
-          --source-bundle S3Bucket="ehealth-deploy",S3Key="ehealth_deployment_package.zip" \
-          --version-label "vers-${{ github.sha }}" \
+          --source-bundle S3Bucket="ehealth-deploy",S3Key="deployment_package.zip" \
+          --version-label "ver-${{ github.sha }}" \
           --description "commit-sha-${{ github.sha }}"
 
       - name: Deploy new ElasticBeanstalk Application Version
-        run: aws elasticbeanstalk update-environment --environment-name Ehealth-env --version-label "vers-${{ github.sha }}"
-
+        run: aws elasticbeanstalk update-environment --environment-name Ehealth-env --version-label "ver-${{ github.sha }}"
