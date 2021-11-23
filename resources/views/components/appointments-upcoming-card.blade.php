@@ -10,11 +10,12 @@
           </h1>      
           <div class="flex-initial">
             <p class="flex-1 text-center">
+                <i class="fa fa-clock"></i> 5:30-6:00pm
+            </p>            
+            <p class="flex-1 text-center">
                 <i class="fa fa-calendar"></i> Wed, 17th Nov
             </p>
-            <p class="flex-1 text-center">
-                <i class="fa fa-clock"></i> 5:30-6:00pm
-            </p>
+
           </div>  
         </div>  
         <hr class="border-primary-light my-2"/>
