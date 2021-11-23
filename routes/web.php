@@ -10,7 +10,7 @@ use App\Http\Livewire\Auth\Register;
 use App\Http\Livewire\Auth\Verify;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Livewire\Auth\Specialist;
+use App\Http\Livewire\Specialist;
 
 /*
 |--------------------------------------------------------------------------
