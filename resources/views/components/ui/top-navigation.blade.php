@@ -13,7 +13,7 @@
                     <a href="/explore" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('explore') ? 'text-primary' : '' }} hover:text-primary">
                         <i class="fa fa-search"></i> Explore
                     </a>          
-                    <a href="/appointments" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('appointments') ? 'text-primary' : '' }} hover:text-primary">
+                    <a href="#" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('appointments') ? 'text-primary' : '' }} hover:text-primary">
                         <i class="fa fa-list"></i> Appointments
                     </a>
                                         

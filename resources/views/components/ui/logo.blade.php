@@ -1,0 +1,1 @@
+<img {{ $attributes->merge(['class' => 'm-1']) }} src="/images/icons/512.png" />

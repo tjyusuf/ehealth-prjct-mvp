@@ -72,4 +72,12 @@ Route::middleware('auth')->group(function(){
     Route::get('/explore',function(){
         return view('explore');
     })->name('explore');
+
+    Route::get('/appointments',function(){
+        return view('appointments');
+    })->name('appointments');
+
+    Route::get('/account',function(){
+        return view('account');
+    })->name('account');
 });
