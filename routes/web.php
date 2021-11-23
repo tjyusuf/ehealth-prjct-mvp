@@ -10,6 +10,8 @@ use App\Http\Livewire\Auth\Register;
 use App\Http\Livewire\Auth\Verify;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Livewire\Auth\Specialist;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -80,4 +82,6 @@ Route::middleware('auth')->group(function(){
     Route::get('/account',function(){
         return view('account');
     })->name('account');
+
+    Route::get('/specialist', Specialist::class)->name('specialist');
 });
