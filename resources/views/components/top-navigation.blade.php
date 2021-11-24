@@ -4,16 +4,16 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
             <div class="flex justify-between items-center py-2 md:justify-start md:space-x-10">
                 <div class="flex justify-start lg:w-0 lg:flex-1">
-                    <a href="/dashboard">
+                    <a href="{{route('dashboard)}}">
                         <x-logo class=" flex-inline h-8 w-auto sm:h-10"/>
                     </a>
                 </div>
                 <nav class="hidden md:flex space-x-10">
                     <div class="relative">
-                    <a href="/explore" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('explore') ? 'text-primary' : '' }} hover:text-primary">
+                    <a href="{{route('explore')}}" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('explore') ? 'text-primary' : '' }} hover:text-primary">
                         <i class="fa fa-search"></i> Explore
                     </a>          
-                    <a href="/appointments" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('appointments') ? 'text-primary' : '' }} hover:text-primary">
+                    <a href="{{route('appointments')}}" class="no-underline px-2 my-2 font-medium text-gray {{ request()->routeIs('appointments') ? 'text-primary' : '' }} hover:text-primary">
                         <i class="fa fa-list"></i> Appointments
                     </a>
                                         
