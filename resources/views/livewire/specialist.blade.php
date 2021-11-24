@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div class="container p-5 space-y-2 bg-white rounded-md shadow-md m-5">
+    <div class="container p-5 space-y-2 bg-white rounded-md shadow-md my-2">
         <div class="space-y-2 ">
             <p class="text-gray-dark text-md font-bold">About specialist</p>
             <p class="text-gray text-justify ">
@@ -61,7 +61,7 @@
         </div>
         
         <x-ui.button class="flex w-full">
-            Make Appointment <i class="fa fa-chevron-right"></i>
+            Make Appointment 
         </x-ui.button>
     </div>
   
