@@ -64,12 +64,12 @@
         </x-ui.button>
     </div>
 
-    <div>
+    <div class="md:container mx-auto p-5 ">
         <p class="text-primary-dark mb-2 text-md font-bold">Shop now</p>
         
         <div class="grid grid-cols-3 justify-between space-y-2 space-x-2">
 
-        <div class="shadow-sm rounded-md bg-white p-2">
+            <div class="shadow-sm rounded-md bg-white p-2">
                 <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
