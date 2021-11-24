@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div class="container p-5 space-y-2 bg-white shadow-md ">
+    <div class="container p-5 space-y-2 bg-white rounded-md shadow-md m-5">
         <div class="space-y-2 ">
             <p class="text-gray-dark text-md font-bold">About specialist</p>
             <p class="text-gray text-justify ">
@@ -58,7 +58,11 @@
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDZjbLAjakQuwZ2ia1__ccYGQhGBH7zLXA
             &q=Legislative+quarters+kaduna" class="w-full h-60">
             </iframe>
-        </div>  
+        </div>
+        
+        <x-ui.button class="flex w-full">
+            Make Appointment <i class="fa fa-chevron-right"></i>
+        </x-ui.button>
     </div>
   
 
