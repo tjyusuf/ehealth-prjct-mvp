@@ -70,7 +70,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 justify-between space-y-2 space-x-2">
 
             <div class="shadow-sm rounded-md bg-white p-2">
-                <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <img src="https://source.unsplash.com/512x512/?medication" alt="drug" class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
                         Panadol Extra
@@ -90,7 +90,7 @@
             </div>
         
             <div class="shadow-sm rounded-md bg-white p-2">
-                <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <img src="https://source.unsplash.com/512x512/?medication" alt="drug" class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
                         Panadol Extra
@@ -110,7 +110,7 @@
             </div>
         
             <div class="shadow-sm rounded-md bg-white p-2">
-                <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <img src="https://source.unsplash.com/512x512/?medication" alt="drug" class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
                         Panadol Extra
@@ -130,7 +130,7 @@
             </div>
         
             <div class="shadow-sm rounded-md bg-white p-2">
-                <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <img src="https://source.unsplash.com/512x512/?medication" alt="drug"  class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
                         Panadol Extra
@@ -150,7 +150,7 @@
             </div>
         
             <div class="shadow-sm rounded-md bg-white p-2">
-                <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <img src="https://source.unsplash.com/512x512/?medication" alt="drug"  class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
                         Panadol Extra
@@ -170,7 +170,7 @@
             </div>
         
             <div class="shadow-sm rounded-md bg-white p-2">
-                <img src="https://source.unsplash.com/512x512/?medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <img src="https://source.unsplash.com/512x512/?medication" alt="drug"  class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-gray-light m-3 p-4 rounded-lg">
                     <p class="text-primary text-xl font-bold ">
                         Panadol Extra
