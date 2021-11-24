@@ -41,23 +41,26 @@
         </div>
     </div>
 
-    <div class="space-y-2">
-        <p class="text-gray-dark text-md font-bold">About specialist</p>
-        <p class="text-gray text-justify ">
-            Phaem. Aminu Hamza is a clinical pharmacist that specialises in drug manufacturing and administering.
-        </p>
-    </div>   
+    <div class="container p-5">
+        <div class="space-y-2">
+            <p class="text-gray-dark text-md font-bold">About specialist</p>
+            <p class="text-gray text-justify ">
+                Phaem. Aminu Hamza is a clinical pharmacist that specialises in drug manufacturing and administering.
+            </p>
+        </div>   
 
-    <div class="space-y-2">
-        <p class="text-gray-dark text-md font-bold">About specialist</p>
-        <iframe
-        style="border:0"
-        loading="lazy"
-        allowfullscreen
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDZjbLAjakQuwZ2ia1__ccYGQhGBH7zLXA
-        &q=Legislative+quarters+kaduna" class="w-full h-60">
-        </iframe>
-    </div>    
+        <div class="space-y-2">
+            <p class="text-gray-dark text-md font-bold">Location</p>
+            <iframe
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDZjbLAjakQuwZ2ia1__ccYGQhGBH7zLXA
+            &q=Legislative+quarters+kaduna" class="w-full h-60">
+            </iframe>
+        </div>  
+    </div>
+  
 
 <!--  
     <div  x-data="{ tab: window.location.hash ? window.location.hash.substring(1) : 'today' }" id="tab_wrapper">
