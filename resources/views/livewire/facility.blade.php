@@ -69,28 +69,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-3 space-y-2 space-x-2">
 
-            <div class="shadow-md rounded-lg bg-white w-64 m-auto p-2">
-                <img src="https://source.unsplash.com/1600x900/medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
-                <div class="bg-primary-light m-3 p-4 rounded-lg">
-                    <p class="text-white text-xl font-bold ">
-                        Panadol Extra
-                    </p>
-                    <p class="text-gray-50 text-xs">
-                        For strong accute headache
-                    </p>
-                    <div class="flex items-center justify-between ">
-                        <p class="text-white">
-                            Ghc1.50
-                        </p>
-                        <button type="button" class="w-10 h-10 text-base font-medium rounded-full text-white bg-primary">
-                            <i class="fa fa-plus text-2xl"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="shadow-md rounded-lg bg-white w-64 m-auto p-2">
+            <div class="shadow-md rounded-lg bg-white w-64 p-2">
                 <img src="https://source.unsplash.com/medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-primary-light m-3 p-4 rounded-lg">
                     <p class="text-white text-xl font-bold ">
@@ -111,8 +90,29 @@
             </div>
 
 
-            <div class="shadow-md rounded-lg bg-white w-64 m-auto p-2">
-                <img src="https://source.unsplash.com/1600x900/medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+            <div class="shadow-md rounded-lg bg-white w-64 p-2">
+                <img src="https://source.unsplash.com/medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
+                <div class="bg-primary-light m-3 p-4 rounded-lg">
+                    <p class="text-white text-xl font-bold ">
+                        Panadol Extra
+                    </p>
+                    <p class="text-gray-50 text-xs">
+                        For strong accute headache
+                    </p>
+                    <div class="flex items-center justify-between ">
+                        <p class="text-white">
+                            Ghc1.50
+                        </p>
+                        <button type="button" class="w-10 h-10 text-base font-medium rounded-full text-white bg-primary">
+                            <i class="fa fa-plus text-2xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shadow-md rounded-lg bg-white w-64 p-2">
+                <img src="https://source.unsplash.com/medication" alt="adidas" class="w-32 p-4 h-36 m-auto"/>
                 <div class="bg-primary-light m-3 p-4 rounded-lg">
                     <p class="text-white text-xl font-bold ">
                         Panadol Extra
