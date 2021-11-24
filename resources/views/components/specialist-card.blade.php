@@ -12,9 +12,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-intiial items-center">
+        <a class="flex flex-intiial items-center" href="/specialist">
             <i class="fa fa-chevron-right"></i>
-        </div>
+        </a>
     </div>
 
 </div>
