@@ -46,7 +46,7 @@
        <div class="space-y-2 ">
             <p class="text-gray-dark text-md font-bold">About specialist</p>
             <p class="text-gray text-justify ">
-                Phaem. Aminu Hamza is a clinical pharmacist that specialises in drug manufacturing and administering.
+                Pharm. Aminu Hamza is a clinical pharmacist that specialises in drug manufacturing and administering.
             </p>
         </div>   
 
