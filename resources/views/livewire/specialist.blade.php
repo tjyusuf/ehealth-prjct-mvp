@@ -41,8 +41,8 @@
         </div>
     </div>
 
-    <div class="container p-5">
-        <div class="space-y-2">
+    <div class="container p-5 space-y-2 bg-white shadow-md ">
+        <div class="space-y-2 ">
             <p class="text-gray-dark text-md font-bold">About specialist</p>
             <p class="text-gray text-justify ">
                 Phaem. Aminu Hamza is a clinical pharmacist that specialises in drug manufacturing and administering.
