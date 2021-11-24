@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-7xl mx-auto p-5 md:p-10 space-y-2">
+    <div class="md:container md:mx-auto mx-auto p-5 md:p-7 space-y-2">
         <!-- header -->
         <header class=" text-gray  flex flex-row">
             <h1 class="flex-grow">

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-7xl mx-auto p-5 md:p-10 space-y-3">
+    <div class="md:container md:mx-auto mx-auto p-5 md:p-7 space-y-2">
        <x-explore-search/>
        <x-explore-filter/>
        <x-specialist-card/>

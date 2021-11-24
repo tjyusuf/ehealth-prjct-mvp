@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-7xl mx-auto p-5 md:p-10 space-y-3">
+    <div class="md:container md:mx-auto mx-auto p-5 md:p-7 space-y-2">
         
         <div class="space-y-2">
             <p class="text-primary-dark mb-2 text-md font-bold">Upcoming appointment</p>
