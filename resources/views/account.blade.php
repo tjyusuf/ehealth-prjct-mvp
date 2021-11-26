@@ -13,7 +13,7 @@
         <img alt="" class="w-12 h-12 rounded-full mr-3" src="https://source.unsplash.com/41x41/?portrait"/>
         <div class="flex-col flex-grow justify-center px-2 py-1">
             <div class="flex justify-between items-center ">
-                <h2 class="text-sm font-semibold">{{ auth()->name }}</h2>
+                <h2 class="text-sm font-semibold">{{ request()->user()->name }}</h2>
             </div>
             <div class="flex pt-2  text-sm">
                 <div class="flex items-center mr-auto">
