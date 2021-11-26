@@ -4,7 +4,7 @@
 
     <div class="flex w-full bg-primary p-5 pb-10 flex-row text-white">
         <div class="flex-grow justify-center text-center">
-            <span class="text-amber text-md font-semibold text-white">
+            <span class="text-white text-md font-semibold text-white">
                 Profile
             </span>
         </div>
@@ -18,7 +18,7 @@
             <div class="flex pt-2  text-sm">
                 <div class="flex items-center mr-auto">
                     <i class="fa fa-map-marker text-md font-bold text-primary"></i>
-                    <p class="primary ml-2">Kaduna</p> 
+                    <p class="primary ml-2">{{$city}}</p> 
                 </div>
             </div>
         </div>
