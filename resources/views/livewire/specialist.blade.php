@@ -1,7 +1,9 @@
 <div>
     <div class="flex w-full bg-primary p-5 pb-10 flex-row text-white">
         <div class="flex-initital">
-            <i class="fa fa-long-arrow-left"></i>
+            <a href=" {{ url()->previous() }} ">
+                <i class="fa fa-long-arrow-left"></i>
+            </a>
         </div>
         <div class="flex-grow justify-center text-center">
             <span class="text-amber text-md font-bold">
