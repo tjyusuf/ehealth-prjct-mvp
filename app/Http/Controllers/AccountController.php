@@ -23,7 +23,7 @@ class AccountController extends Controller
 
         $geoLocation = Location::get(request()->ip());
 
-        $city = $geoLocation->cityName();
+        $city = $geoLocation->cityName;
 
           
 
