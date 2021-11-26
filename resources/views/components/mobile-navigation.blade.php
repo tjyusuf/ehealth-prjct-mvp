@@ -24,7 +24,7 @@
             </a>
         </div>
         <div class="flex flex-col items-center {{ request()->routeIs('profile') ? 'text-primary' : '' }} transition ease-in duration-200 hover:text-primary ">
-            <a href="#">
+            <a href="/account">
                 <i class="fa fa-user"></i>
             </a>
         </div>
