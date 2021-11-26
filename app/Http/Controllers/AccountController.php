@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Adrianorosa\GeoLocation\GeoLocation;
-
+use Stevebauman\Location\Facades\Location;
 
 class AccountController extends Controller
 {
@@ -22,9 +21,9 @@ class AccountController extends Controller
 
     {
 
-        $geoLocation = GeoLocation::lookup(request()->ip());
+        $geoLocation = Location::get(request()->ip());
 
-        $city = $geoLocation->getCity();
+        $city = $geoLocation->cityName();
 
           
 
