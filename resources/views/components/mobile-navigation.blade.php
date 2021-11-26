@@ -2,7 +2,7 @@
     <!-- Mobile navigation menu -->
     <div class="md:hidden fixed bottom-1 w-full p-5 px-6 flex items-center justify-between bg-white shadow-lg text-gray cursor-pointer">
         <div class="flex flex-col items-center {{ request()->routeIs('dashboard') ? 'text-primary' : '' }} transition ease-in duration-200 hover:text-primary ">
-            <a href="/dashboard">
+            <a href="/home">
                 <i class="fa fa-home"></i>
             </a>    
         </div>
@@ -24,7 +24,7 @@
             </a>
         </div>
         <div class="flex flex-col items-center {{ request()->routeIs('profile') ? 'text-primary' : '' }} transition ease-in duration-200 hover:text-primary ">
-            <a href="/account">
+            <a href="#">
                 <i class="fa fa-user"></i>
             </a>
         </div>
