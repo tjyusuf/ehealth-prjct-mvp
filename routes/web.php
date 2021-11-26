@@ -84,7 +84,9 @@ Route::middleware('auth')->group(function(){
         return view('account');
     })->name('account');
 
+    Route::get('/facility', Facility::class)->name('facility');
+    Route::get('/specialist', Specialist::class)->name('specialist');
 
-Route::get('/facility', Facility::class)->name('facility');
-Route::get('/specialist', Specialist::class)->name('specialist');
+
+    
 });
