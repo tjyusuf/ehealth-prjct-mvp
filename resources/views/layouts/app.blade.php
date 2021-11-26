@@ -9,7 +9,7 @@
         @isset($slot)
             {{ $slot }}
         @endisset
-        <x-mobile-navigation/>
 
+        <x-mobile-navigation/>
     </div>
 @endsection
