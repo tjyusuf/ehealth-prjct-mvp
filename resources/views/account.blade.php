@@ -31,7 +31,7 @@
 
 
     <div class="md:container md:mx-auto mx-auto p-5 md:p-7 space-y-2">
-        <x-ui.list-item :icon="cart-plus" :title="Orders">
+        <x-ui.list-item icon="cart-plus" title="Orders">
             <x-slot name="content">
                 Manage Orders
             </x-slot>
@@ -40,7 +40,7 @@
             </x-slot>
         </x-ui.list-item>
 
-        <x-ui.list-item :icon="user" :title="Account">
+        <x-ui.list-item icon="user" title="Account">
             <x-slot name="content">
                 Email, Phone and password
             </x-slot>
@@ -49,7 +49,7 @@
             </x-slot>
         </x-ui.list-item>
         
-        <x-ui.list-item :icon="user-shield" :title="KYC">
+        <x-ui.list-item icon="user-shield" title="KYC">
             <x-slot name="content">
                 Verify identity using National ID, License..
             </x-slot>
@@ -57,7 +57,7 @@
                 <i class="fa fa-chevron-right"></i>
             </x-slot>
         </x-ui.list-item>  
-        <x-ui.list-item :icon="sign-out" :title="Logout"/>        
+        <x-ui.list-item icon="sign-out" title="Logout"/>        
 
     </div>
 @endsection
