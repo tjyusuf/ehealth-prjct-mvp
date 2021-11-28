@@ -21,9 +21,10 @@ class AccountController extends Controller
 
     {
 
-        dd($geoLocation = Location::get(request()->ip()));
+//         dd($geoLocation = Location::get(request()->ip()));
 
-        $city = $geoLocation->cityName;
+//         $city = $geoLocation->cityName;
+        $city = "Kaduna";
 
           
 
