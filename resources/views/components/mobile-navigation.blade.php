@@ -23,7 +23,7 @@
                 <i class="fa fa-bookmark"></i>
             </a>
         </div>
-        <div class="flex flex-col items-center {{ request()->routeIs('profile') ? 'text-primary' : '' }} transition ease-in duration-200 hover:text-primary ">
+        <div class="flex flex-col items-center {{ request()->routeIs('account') ? 'text-primary' : '' }} transition ease-in duration-200 hover:text-primary ">
             <a href="/account">
                 <i class="fa fa-user"></i>
             </a>
