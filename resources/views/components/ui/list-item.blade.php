@@ -11,7 +11,7 @@
 		</p>
 	</div>
 	@if(isset($more))
-		<p class="flex-inline text-primary">
+		<p class="flex-inline text-">
 			{{ $more }}	
 		</p>
 	@endif
