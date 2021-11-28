@@ -1,1 +1,36 @@
 
+<?php
+
+namespace App\View\Components\ui;
+
+use Illuminate\View\Component;
+
+class ui.list-item extends Component
+{
+    /**
+     * Create a new component instance.
+     *
+     * @return void
+     */
+     
+    public $icon;
+    public $title;
+    public $content;     
+     
+    public function __construct($icon-null,$title,$content)
+    {
+        $this->icon = $icon;
+        $this->title = $title;
+        $this->content = $content;
+    }
+
+    /**
+     * Get the view / contents that represent the component.
+     *
+     * @return \Illuminate\Contracts\View\View|\Closure|string
+     */
+    public function render()
+    {
+        return view('components.ui.list-item');
+    }
+}
