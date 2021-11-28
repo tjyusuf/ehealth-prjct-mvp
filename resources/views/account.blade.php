@@ -38,7 +38,7 @@
             <x-slot name="more">
                 <i class="fa fa-chevron-right"></i>
             </x-slot>
-        </x-ui.list-item/>
+        </x-ui.list-item>
 
         <x-ui.list-item :icon="user" :title="Account">
             <x-slot name="content">
@@ -47,7 +47,8 @@
             <x-slot name="more">
                 <i class="fa fa-chevron-right"></i>
             </x-slot>
-        </x-ui.list-item/>
+        </x-ui.list-item>
+        
         <x-ui.list-item :icon="user-shield" :title="KYC">
             <x-slot name="content">
                 Verify identity using National ID, License..
@@ -55,7 +56,7 @@
             <x-slot name="more">
                 <i class="fa fa-chevron-right"></i>
             </x-slot>
-        </x-ui.list-item/>  
+        </x-ui.list-item>  
         <x-ui.list-item :icon="sign-out" :title="Logout"/>        
 
     </div>
