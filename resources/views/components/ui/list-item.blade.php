@@ -1,7 +1,7 @@
 <div {!! $attributes->merge(['class' => 'bg-white rounded shadow flex py-2 px-3 my-1 items-center text-gray']) !!}>
 	@if(isset($icon))
         <p class="flex-inline flex-shrink-0 mr-4">
-            <i class="fa fa-$icon text-base"></i>
+            <i class="fa fa-{{$icon}} text-base"></i>
         </p>
 	@endif    
 	<div class="flex-inline w-full">
