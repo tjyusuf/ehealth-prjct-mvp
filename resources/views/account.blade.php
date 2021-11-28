@@ -33,7 +33,7 @@
     <div class="md:container md:mx-auto mx-auto p-5 md:p-7 space-y-2">
         <x-ui.list-item icon="cart-plus" title="Orders">
             <x-slot name="content">
-                Manage Orders
+                Manage Orders and prescriptions
             </x-slot>
             <x-slot name="more">
                 <i class="fa fa-chevron-right"></i>
