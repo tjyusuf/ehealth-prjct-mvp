@@ -17,7 +17,7 @@ class ui.list-item extends Component
     public $title;
     public $content;     
      
-    public function __construct($icon-null,$title,$content)
+    public function __construct($icon-null,$title,$content=null)
     {
         $this->icon = $icon;
         $this->title = $title;
