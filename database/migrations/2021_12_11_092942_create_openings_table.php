@@ -15,6 +15,9 @@ class CreateOpeningsTable extends Migration
     {
         Schema::create('openings', function (Blueprint $table) {
             $table->id();
+            $table->boolean('is_active')->default(false);
+            $table->foreign('for')->references('id')->on('specialist_types');
+            $table->foreign('facility_id')->references('id')->on('facilities');
             $table->timestamps();
         });
     }
