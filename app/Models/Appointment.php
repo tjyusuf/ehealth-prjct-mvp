@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Appointment extends Model
 {
     use HasFactory;
+
+
+    public function ratings()
+    {
+        return $this->morphMany('App\Models\Rating', 'ratable');
+    }    
+
+    public function appointable()
+    {
+        return $this->morphTo();
+    }         
 }

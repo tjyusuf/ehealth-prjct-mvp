@@ -18,4 +18,14 @@ class Specialist extends Model
     {
         return $this->belongsTo('App\Models\SpecialistType','type_id');
     }
+
+    public function ratings()
+    {
+        return $this->morphMany('App\Models\Rating', 'ratable');
+    }    
+  
+    public function appointments()
+    {
+        return $this->morphMany('App\Models\Appointment', 'appointable');
+    }        
 }
