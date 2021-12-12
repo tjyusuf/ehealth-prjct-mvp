@@ -48,4 +48,14 @@ class User extends Authenticatable
         return $this->hasOne('App\Models\Specialist');
     } 
 
+    public function appointments()
+    {
+        return $this->hasMany('App\Models\Appointment');
+    } 
+
+    public function orders()
+    {
+        return $this->hasMany('App\Models\Order');
+    } 
+
 }

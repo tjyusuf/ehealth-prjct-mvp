@@ -15,7 +15,9 @@ class CreateOrderItemsTable extends Migration
     {
         Schema::create('order_items', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->integer('qty');
+            $table->integer('price');
+            $table->foreign('item_id')->references('id')->on('inventory');
         });
     }
 

@@ -32,5 +32,10 @@ class Facility extends Model
     public function appointments()
     {
         return $this->morphMany('App\Models\Appointment', 'appointable');
-    }      
+    }    
+
+    public function inventories()
+    {
+        return $this->hasMany('App\Models\Inventory','facility_id');
+    } 
 }
