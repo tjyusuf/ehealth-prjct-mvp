@@ -11,8 +11,13 @@ class SpecialistType extends Model
 
     public $timestamps = false;
 
-    public function specialist()
+    public function specialists()
     {
         return $this->hasMany('App\Models\Specialist','type_id');
-    }     
+    }  
+
+    public function openings()
+    {
+        return $this->hasMany('App\Models\Opening','for');
+    }         
 }

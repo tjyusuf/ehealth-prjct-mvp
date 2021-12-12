@@ -18,4 +18,9 @@ class Facility extends Model
     {
         return $this->belongsTo('App\Models\FacilityType','type_id');
     }    
+ 
+    public function openings()
+    {
+        return $this->hasMany('App\Models\Opening','facility_id');
+    }    
 }
