@@ -1,10 +1,10 @@
-<div>
+<div x-data="{ open: false }">
 
     <div class="flex flex-row px-5 py-2">
       <p class="flex flex-grow text-gray-500">Filters</p>
-      <p  ><i class="fa fa-filter text-primary"></i></p>  
+      <p  @click="open = ! open"><i class="fa fa-filter text-primary"></i></p>  
     </div>
-    <div class="px-5 py-2 flex-col bg-gray-light" >
+    <div class="px-5 py-2 flex-col bg-white shadow-sm rounded"  x-show="open" >
       <div class="space-x-2 flex">
         <span class="flex-inline px-4 py-2 text-base rounded-full text-white bg-primary">
           <i class="fa fa-user-md mr-3"></i>
