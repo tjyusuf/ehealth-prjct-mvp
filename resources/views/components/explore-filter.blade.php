@@ -4,7 +4,7 @@
       <p class="flex flex-grow">Filters</p>
       <p  @click="open = ! open"><i class="fa fa-filter" :class="{ 'text-primary': ! open }"></i></p>  
     </div>
-    <div class="px-5 py-2 flex-col bg-white shadow-sm rounded"  x-show="open" >
+    <div class="px-5 py-2 flex-col bg-white shadow-sm rounded"  x-show="open" x-transition>
       <div class="space-x-2 flex">
         <span class="flex-inline px-4 py-2 text-base rounded-full text-white bg-primary">
           <i class="fa fa-user-md mr-3"></i>
