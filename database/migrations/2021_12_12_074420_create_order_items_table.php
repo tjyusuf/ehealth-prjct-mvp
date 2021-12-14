@@ -17,6 +17,7 @@ class CreateOrderItemsTable extends Migration
             $table->id();
             $table->integer('qty');
             $table->integer('price');
+            $table->unsignedBigInteger('item_id');
             $table->foreign('item_id')->references('id')->on('inventory');
         });
     }

@@ -16,7 +16,9 @@ class CreateSpecialistsTable extends Migration
         Schema::create('specialists', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
+            $table->unsignedBigInteger('type_id');
             $table->foreign('type_id')->references('id')->on('specialities');
             $table->timestamps();
         });
