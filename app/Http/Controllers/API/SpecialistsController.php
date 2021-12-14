@@ -5,7 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-use App\Http\Traits\ApiResponse;
+use App\Traits\ApiResponse;
 
 class SpecialistsController extends Controller
 {
