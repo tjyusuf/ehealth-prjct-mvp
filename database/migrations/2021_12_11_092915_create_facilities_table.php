@@ -18,7 +18,7 @@ class CreateFacilitiesTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedBigInteger('type_id');
-            $table->foreign('type_id')->references('id')->on('facilities');
+            $table->foreign('type_id')->references('id')->on('facility_types');
             $table->timestamps();
         });
     }

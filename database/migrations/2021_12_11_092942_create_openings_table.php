@@ -16,7 +16,7 @@ class CreateOpeningsTable extends Migration
         Schema::create('openings', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('for');
-            $table->foreign('for')->references('id')->on('specialist_types');
+            $table->foreign('for')->references('id')->on('specialists_types');
             $table->unsignedBigInteger('facility_id');
             $table->foreign('facility_id')->references('id')->on('facilities');
             $table->boolean('is_active')->default(false);
