@@ -5,8 +5,12 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+use App\Http\Traits\ApiResponse;
+
 class SpecialistsController extends Controller
 {
+
+    use ApiResponse;
     /**
      * Display a listing of the resource.
      *
@@ -15,6 +19,7 @@ class SpecialistsController extends Controller
     public function index()
     {
         //
+        return $this->success('List', 'All specialists');
     }
 
     /**
@@ -25,6 +30,7 @@ class SpecialistsController extends Controller
     public function create()
     {
         //
+
     }
 
     /**
@@ -47,6 +53,8 @@ class SpecialistsController extends Controller
     public function show($id)
     {
         //
+        return $this->success('Show', 'All specialists');
+
     }
 
     /**

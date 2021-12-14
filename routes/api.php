@@ -3,17 +3,26 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\API\RatingsController;
 use App\Http\Controllers\API\AuthController;
+use App\Http\Controllers\API\SpecialistsController;
+use App\Http\Controllers\API\FacilitiesController;
+use App\Http\Controllers\API\RatingsController;
 
-Route::post('/auth/register', [AuthController::class, 'register']);
+Route::prefix('/specialists')->group(function(){
+    
+    Route::GET('/', [SpecialistsController::class, 'index']);
+    Route::POST('/', [SpecialistsController::class, 'create']);
+    Route::GET('/{id}', [SpecialistsController::class, 'show']);
+    Route::PUT('/{id}', [SpecialistsController::class, 'update']);
+    Route::DELETE('/{id}', [SpecialistsController::class, 'destroy']);
+    
+});
 
-Route::post('/auth/login', [AuthController::class, 'login']);
+Route::prefix('/facilities')->group(function(){
+    
+    Route::GET('/', [FacilitiesController::class, 'index']);
+    Route::POST('/', [FacilitiesController::class, 'post']);
+    Route::GET('/{id}', [FacilitiesController::class, 'show']);
+    Route::PUT('/{id}', [FacilitiesController::class, 'update']);
 
-Route::group(['middleware' => ['auth:sanctum']], function () {
-    Route::get('/me', function(Request $request) {
-        return auth()->user();
-    });
-
-    Route::post('/auth/logout', [AuthController::class, 'logout']);
 });
