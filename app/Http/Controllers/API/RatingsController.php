@@ -15,6 +15,7 @@ class RatingsController extends Controller
     public function index()
     {
         //
+        return "settings";
     }
 
     /**
