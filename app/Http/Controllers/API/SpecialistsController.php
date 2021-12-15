@@ -30,6 +30,7 @@ class SpecialistsController extends Controller
     public function create()
     {
         //
+        return $this->success('Create', 'New specialist');
 
     }
 
@@ -53,7 +54,7 @@ class SpecialistsController extends Controller
     public function show($id)
     {
         //
-        return $this->success('Show', 'All specialists');
+        return $this->success('Show', 'Showing specialist');
 
     }
 
